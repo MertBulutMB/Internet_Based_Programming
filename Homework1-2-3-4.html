@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="keywords" content="class,uni">
+  <title>HOMEWORKS</title>
+</head>
+<body>
+
+<h1>HW1</h1>
+<hr>
+<u>1.</u>
+<p><a href="https://google.com">Click here to go to Google</a></p>
+<br>
+
+<u>2.</u>
+<p>To dial --> <a href="tel:5534629387">Click here</a>.</p>
+<p>To email --> <a href="mailto: mertt.bulut.mb@gmail.com">Click here</a></p>
+<p id="demo">Use JavaScript -->
+  <button type="button" onclick='document.getElementById("demo").innerHTML = "JavaScript is working bruh"'>Click</button>
+</p>
+<br>
+
+<u>3.</u>
+<p>Open Github in a new tab --> <a href="https://github.com/MertBulutMB" target="_blank"></a></p>
+<br>
+
+<h1>HW2</h1>
+<hr>
+<img src = "square.webp" alt = "Square Shape" usemap = "#new-map" >
+<map name = "new-map" >
+  <area shape = "square" coords = "91,70,290,160" alt = "Square" href = "#" >
+</map>
+<br>
+
+<h1>HW3</h1>
+<hr>
+
+<input type="hidden" id="ID" name="ID" value="1453">
+
+<label>Full Name</label>
+<input type="text"><br>
+
+<label>Phone Number</label>
+<input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"><br>
+
+<label for="email">Enter your email:</label>
+<input type="email" id="email" name="email"> <br>
+
+<label for="vol">Volume (between 0 and 50):</label>
+<input type="range" id="vol" name="vol" min="0" max="50"> <br>
+
+<label for="gsearch">Search Google:</label>
+<input type="search" id="gsearch" name="gsearch"> <br>
+
+<label for="image">Image</label>
+<input type="image" id="image" src="profile.jpg" alt="Submit" width="48" height="48"><br>
+
+<label>Week</label>
+<input type="week" name="week"><br>
+
+<label>URL</label>
+<input type="url" name="homepage"><br>
+
+<label>Datatime Local</label>
+<input type="datetime-local" name="time"><br>
+
+<label>Month</label>
+<input type="month"><br>
+
+<label>Time</label>
+<input type="time"><br>
+<br>
+
+<h1>HW4</h1>
+<hr>
+
+<form action="save.php" target="_blank" method="post" accept-charset="UTF-8">
+  <table border="1px">
+    <tr>
+      <td>Full Name:</td>
+      <td>
+        <input type="text">
+      </td>
+    </tr>
+
+    <tr>
+      <td>Email:</td>
+      <td>
+        <input type="email" >
+      </td>
+    </tr>
+    <tr>
+      <td>Password:</td>
+      <td>
+        <input type="password">
+      </td>
+    </tr>
+    <tr>
+      <td>Gender:</td>
+      <td>
+        <input type="radio" name="gender">Male
+        <input type="radio" name="gender">Female
+        <input type="radio" name="gender">I don't want to reveal my gender
+      </td>
+    </tr>
+    <tr>
+      <td>Birthdate:</td>
+      <td><input type="date"></td>
+    </tr>
+
+    <td>
+      <input type="submit" value="Submit">
+      <input type="reset" value="Reset">
+    </td>
+  </table>
+</form>
+
+</body>
+</html>
